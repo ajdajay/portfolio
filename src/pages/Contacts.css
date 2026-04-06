@@ -1,0 +1,101 @@
+.contact-section {
+  background: #fef7ee;
+  border-radius: 56px;
+  padding: 56px 48px;
+  margin: 50px 0 70px;
+  text-align: center;
+  border: 1px solid #f1e4d8;
+}
+
+.contact-section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  max-width: 580px;
+  margin: 0 auto 32px;
+  color: #5b5248;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  background: white;
+  border-radius: 60px;
+  padding: 14px 28px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #2c2b28;
+  transition: all 0.25s;
+  border: 1px solid #eedfcb;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+}
+
+.contact-card i {
+  font-size: 1.5rem;
+  color: #c66b3d;
+}
+
+.contact-card:hover {
+  background: #c66b3d;
+  color: white;
+  transform: translateY(-4px);
+}
+
+.contact-card:hover i {
+  color: white;
+}
+
+.appreciate-btn {
+  background: transparent;
+  border: 2px solid #c66b3d;
+  color: #c66b3d;
+  padding: 12px 32px;
+  font-weight: 700;
+  border-radius: 60px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.appreciate-btn:hover {
+  background: #c66b3d;
+  color: white;
+  transform: scale(1.02);
+}
+
+.appreciate-btn:disabled {
+  opacity: 0.7;
+  cursor: default;
+  transform: none;
+}
+
+.appreciation-message {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #a2522c;
+  min-height: 24px;
+  transition: opacity 0.2s;
+}
+
+@media (max-width: 800px) {
+  .contact-section {
+    padding: 28px;
+  }
+}

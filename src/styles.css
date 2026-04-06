@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefcf5;
+  font-family: 'Inter', sans-serif;
+  color: #1f1e1c;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 0 24px;
+  }
+}

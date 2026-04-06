@@ -1,0 +1,129 @@
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 70px 0 60px;
+}
+
+.hero-content {
+  flex: 1.2;
+}
+
+.hero-badge {
+  background: #F0E7DB;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 40px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #C66B3D;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content h1 {
+  font-size: 3.8rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.2rem;
+  background: linear-gradient(to right, #2D2A27, #B2572F);
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #4a4743;
+  max-width: 90%;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background-color: #C66B3D;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background-color: #A2522C;
+  transform: scale(0.98);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1.5px solid #D9CBB8;
+  padding: 10px 26px;
+  border-radius: 40px;
+  font-weight: 500;
+  transition: 0.2s;
+  text-decoration: none;
+  color: #2c2b28;
+}
+
+.btn-outline:hover {
+  border-color: #C66B3D;
+  color: #C66B3D;
+}
+
+.hero-image {
+  flex: 0.9;
+  background: #F4EDE3;
+  border-radius: 48px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 25px 35px -12px rgba(0, 0, 0, 0.08);
+}
+
+.profile-pic {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+}
+
+.image-caption {
+  font-size: 0.8rem;
+  margin-top: 12px;
+  color: #7F6E5D;
+}
+
+@media (max-width: 800px) {
+  .hero-content h1 {
+    font-size: 2.6rem;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .hero-content p {
+    max-width: 100%;
+  }
+  .hero-actions {
+    justify-content: center;
+  }
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+}
