@@ -5,9 +5,9 @@ import './Projects.css';
 // Import images from the public or src folder
 // Place your images in the public/images folder or src/images folder
 const PROJECT_IMAGES = {
-  devify: '/images/devify.jpg',
-  bayanihan: '/images/bayanihan.jpg',
-  awesometodos: '/images/notion.jpg',
+  devify: '/devify.jpg',
+  bayanihan: '/bayanihan.jpg',
+  awesometodos: '/notion.jpg',
 };
 
 const projects = [
